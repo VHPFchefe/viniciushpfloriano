@@ -1,52 +1,57 @@
-header{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: #a03030;
-    width: 100%;
-    background-color: #777777;
-    color: black;
-}
-#home{
-    padding-left: 10%;
-    float: left;
-    background-color: #777777;
-    color: black;
-    width: 25%;
-}
-
-#portifolio{
-    float: left;
-    background-color: #777777;
-    color: black;    float: left;
-    width: 30%;
-}
-
-#contato{
-    padding-right: 10%;
-    float: right;    
-    background-color: #777777;
-    color: black;
-    width: 25%;
-}
-
 body{
-    background-color:rgba(88, 83, 83, 0.644);
-    font: normal 100px arial;
-    color: aliceblue;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
 }
 
-section{
-    background: rgba(121, 219, 226, 0.644);
-    border-radius: 10px;
-    height: auto;
-    text-align: left;
-    font: normal 25pt arial;
-    padding: 30px;
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+a{
+    color: white;
+    text-decoration: none;
 }
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(102, 228, 102)
+}
+
+.center{
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    border: 5px solid rgb(255, 255, 255)
+}
+
 footer{
-    color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container{
+    padding: 50px;
+}
+
+nav a:hover {
+    color: green;
 }
