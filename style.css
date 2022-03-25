@@ -1,0 +1,52 @@
+header{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #a03030;
+    width: 100%;
+    background-color: #777777;
+    color: black;
+}
+#home{
+    padding-left: 10%;
+    float: left;
+    background-color: #777777;
+    color: black;
+    width: 25%;
+}
+
+#portifolio{
+    float: left;
+    background-color: #777777;
+    color: black;    float: left;
+    width: 30%;
+}
+
+#contato{
+    padding-right: 10%;
+    float: right;    
+    background-color: #777777;
+    color: black;
+    width: 25%;
+}
+
+body{
+    background-color:rgba(88, 83, 83, 0.644);
+    font: normal 100px arial;
+    color: aliceblue;
+}
+
+section{
+    background: rgba(121, 219, 226, 0.644);
+    border-radius: 10px;
+    height: auto;
+    text-align: left;
+    font: normal 25pt arial;
+    padding: 30px;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+footer{
+    color: brown;
+}
