@@ -37,6 +37,11 @@ ul{
     padding: 16px;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 footer img {
     width: 30px;
     height: 30px;
