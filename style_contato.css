@@ -1,8 +1,12 @@
 body{
     color: white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 ul{
     display: flex;
     justify-content: space-between;
@@ -11,12 +15,7 @@ ul{
     padding: 16px;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-}
-
-header div a img{
+#contato div a img{
     background-color: rgb(94, 219, 94);
     text-align: center;
     width: 200px;
@@ -25,39 +24,18 @@ header div a img{
     border: 5px solid white
 }
 
-header p {
+#contato p {
     font: normal 20px Helvetica;
 }
-header a {
+#contato a {
     font: normal 25px Helvetica;
 }
 
-header {
+#contato {
     text-align: center;
 }
 .center{
     text-align: center;
-}
-
-footer img {
-    width: 30px;
-    height: 30px;
-    border-radius: 30%;
-    border: 5px solid rgb(255, 255, 255)
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-}
-
-footer a {
-    margin: 20px;
-    text-align: center;
-}
-
-footer p {
-    margin-top: 2px;
 }
 
 .container{
