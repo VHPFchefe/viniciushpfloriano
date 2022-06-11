@@ -1,21 +1,73 @@
-@font-face {
-    font-family: 'PressStart';
-    src: url(fontes/PressStart2P-Regular.ttf) format('opentype');
-    font-weight: normal;
+:root{
+    --cor0: #696767;
+    --cor1: #62eb84;
+    --cor2: white;
+    --cor3: #eeeded;
+    --cor4: #a09e9e;
+    --cor5: #000000;
+    --fontes-padrao: Arial, Verdana, Helvetica, sans-serif ;
+    --F1: 'PressStart';
+    --F2: 'Saira';
+}
+
+*{
+    color: white;
 }
 
 body{
     min-height:100vh;
 }
 
-#escrita{
-    font: 200pt;
-    min-height: 100;
-    max-width: 480px;
+#livro{
+    background-image: url(imagens/book-library-with-open-textbook_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#projetos{
+    background-image: url(imagens/light-bulb-ideas-creative-diagram-concept.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project{
+    padding: 5px;
     text-align: center;
-    margin: 60px auto;
-    font-family: 'PressStart';
-    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project h2 {
+    color: var(--cor5);
+    text-shadow: 0.5px 1px #00000084;
+    font-size: 3em;
+}
+
+.project a{
+    text-decoration: none;
+}
+
+.project a p {
+    padding: 0px;
+    border: 0px;
+    margin: auto;
+    background-color: #e3d4d447;
+    color: black;
+    font-size: 1.5em;
+    max-width: 300px;
+}
+
+.project img{
+    height: 100px;
+    width: 100px;
+}
+
+#escrita{
+    color: var(--cor5);
+    min-height: 100px;
+    max-width: 480px;
+    margin: auto;
 }
 
 #escrita::after{
