@@ -1,0 +1,45 @@
+:root{
+    --cor0: #696767;
+    --cor1: #62eb84;
+    --cor2: white;
+    --cor3: #eeeded;
+    --cor4: #a09e9e;
+    --cor5: #000000;
+    --fontes-padrao: Arial, Verdana, Helvetica, sans-serif ;
+    --F1: 'PressStart';
+    --F2: 'Saira';
+}
+
+*{
+    text-align: center;
+    color: white;
+}
+
+body{
+    min-height:100vh;
+}
+
+#escrita{
+    padding: 20px;
+    color: var(--cor5);
+    min-height: 100px;
+    max-width: 480px;
+    margin: auto;
+}
+
+#escrita::after{
+    text-align: center;
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite  ;
+}
+
+@keyframes pisca {
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}

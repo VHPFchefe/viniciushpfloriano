@@ -1,3 +1,21 @@
+:root{
+    --cor0: #696767;
+    --cor1: #62eb84;
+    --cor2: white;
+    --cor3: #eeeded;
+    --cor4: #a09e9e;
+    --cor5: #000000;
+    --fontes-padrao: Arial, Verdana, Helvetica, sans-serif ;
+    --F1: 'PressStart';
+    --F2: 'Saira';
+}
+
+#nav_contato {
+    color: var(--cor5);
+    background-color: var(--cor1);
+    transition-duration: 0.5s;    
+}
+
 body{
     color: white;
 }
